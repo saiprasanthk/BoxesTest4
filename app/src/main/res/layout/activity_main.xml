@@ -1,0 +1,832 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="${relativePackage}.${activityClass}">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:background="@drawable/rounded_black"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dip"
+                android:layout_marginLeft="06dip"
+                android:background="#dddddd"
+                android:orientation="horizontal"
+                android:padding="7dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="Present Week"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#c0c0c0" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dip"
+                android:layout_marginLeft="06dip"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:text="Self SV"
+                    android:textAlignment="inherit"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="fill_parent"
+                    android:background="#c0c0c0" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text=" : 33210" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#c0c0c0" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dip"
+                android:layout_marginLeft="06dip"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:text="Left Team SV"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text=" : 33210" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#c0c0c0" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dip"
+                android:layout_marginLeft="06dip"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:text="Right Team SV"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text=" : 33210" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#c0c0c0" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dip"
+                android:layout_marginLeft="06dip"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:text="Carry Forward Left SV"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text=" : 33210" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#c0c0c0" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dip"
+                android:layout_marginLeft="06dip"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:text="Carry Forward Right SV"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text=" : 33210" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#c0c0c0" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dip"
+                android:layout_marginLeft="06dip"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:text="Total Left SV"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text=" : 33210" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#c0c0c0" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dip"
+                android:layout_marginLeft="06dip"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:text="Total Right SV"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text=" : 33210" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:background="@drawable/rounded_black"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dip"
+                android:layout_marginLeft="06dip"
+                android:background="#dddddd"
+                android:orientation="horizontal"
+                android:padding="7dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="Present Week"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dip"
+                android:layout_marginLeft="06dip"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:text="Self SV"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dip"
+                android:layout_marginLeft="06dip"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:text="Left Team SV"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dip"
+                android:layout_marginLeft="06dip"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:text="Right Team SV"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dip"
+                android:layout_marginLeft="06dip"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:text="Carry Forward Left SV"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dip"
+                android:layout_marginLeft="06dip"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:text="Carry Forward Right SV"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dip"
+                android:layout_marginLeft="06dip"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:text="Total Left SV"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dip"
+                android:layout_marginLeft="06dip"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:text="Total Right SV"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:background="@drawable/rounded_black"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="06dip"
+                android:background="#dff2be"
+                android:orientation="horizontal"
+                android:padding="7dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="Path finder Bonus"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:background="@android:color/black"
+                android:orientation="vertical">
+
+                <!-- <TableLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content">
+                     <TableRow
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:background="@android:color/black">
+
+                         <TextView
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:layout_marginBottom="1dp"
+                             android:layout_weight="1"
+                             android:background="@color/white"
+
+                             />
+                     </TableRow>
+
+                     <TableRow
+                         android:id="@+id/tableRow2"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:background="@android:color/white">
+
+                         <TextView
+                             android:layout_width="match_parent"
+                             android:layout_height="wrap_content"
+                             android:layout_weight="1"
+                             android:layout_marginLeft="1dp"
+                             android:background="@color/white"
+                             android:gravity="left"
+                             android:textStyle="bold"
+                             android:paddingLeft="10dp"
+                             android:text="SV To Qualify Qualified :"
+                            />
+
+                         <TextView
+                             android:layout_width="match_parent"
+                             android:layout_height="wrap_content"
+                             android:layout_marginBottom="1dp"
+                             android:layout_marginLeft="1dp"
+                             android:layout_weight="1"
+                             android:background="@color/white"
+                             android:layout_marginRight="1dp"
+                             android:gravity="left"
+                             android:textStyle="bold"
+                             android:text=" SV"
+                             android:paddingLeft="10dp"
+                             android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+
+                         <TextView
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:layout_marginBottom="1dp"
+                             android:layout_marginLeft="1dp"
+                             android:layout_weight="1"
+                             android:background="@color/white"
+                             android:layout_marginRight="1dp"
+                             android:gravity="left"
+                             android:textStyle="bold"
+                             android:text=" SV"
+                             android:paddingLeft="10dp"
+                             android:textAppearance="?android:attr/textAppearanceMedium"
+                             />
+                     </TableRow>
+
+                     <TableRow
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:background="@android:color/black">
+
+                         <TextView
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:layout_marginBottom="1dp"
+                             android:layout_marginLeft="1dp"
+                             android:layout_weight="1"
+                             android:background="@color/white"
+                             android:gravity="left"
+                             android:paddingLeft="10dp"
+                             android:text="Level 1"
+                             android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                         <TextView
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:layout_marginBottom="1dp"
+                             android:layout_marginLeft="1dp"
+                             android:layout_weight="1"
+                             android:background="@color/white"
+                             android:gravity="left"
+                             android:layout_marginRight="1dp"
+                             android:text="0"
+                             android:paddingLeft="10dp"
+                             android:textAppearance="?android:attr/textAppearanceMedium" />
+                     </TableRow>
+
+                     <TableRow
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:background="@android:color/black">
+
+                         <TextView
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:layout_marginBottom="1dp"
+                             android:layout_marginLeft="1dp"
+                             android:layout_weight="1"
+                             android:background="@color/white"
+                             android:gravity="left"
+                             android:text="Level 2"
+                             android:paddingLeft="10dp"
+                             android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                         <TextView
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:layout_marginBottom="1dp"
+                             android:layout_marginLeft="1dp"
+                             android:layout_marginRight="1dp"
+                             android:layout_weight="1"
+                             android:background="@color/white"
+                             android:gravity="left"
+                             android:text="0"
+                             android:paddingLeft="10dp"
+                             android:textAppearance="?android:attr/textAppearanceMedium" />
+                     </TableRow>
+                 </TableLayout>-->
+
+                <HorizontalScrollView
+                    android:id="@+id/horizontalScrollView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="horizontal"
+                    android:fillViewport="true">
+
+                <TableLayout
+                    android:id="@+id/myincentivestatus_table"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:stretchColumns="*">
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/reatailbusiness_text"
+                            style="@style/greenTextViewStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/rounded_table"
+                            android:gravity="center"
+                            android:paddingBottom="10dip"
+                            android:paddingLeft="04dip"
+                            android:paddingRight="04dip"
+                            android:paddingTop="10dip"
+                            android:text="Description" />
+
+                        <TextView
+                            style="@style/greenTextViewStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/rounded_table"
+                            android:gravity="center"
+                            android:paddingBottom="10dip"
+                            android:paddingLeft="04dip"
+                            android:paddingRight="04dip"
+                            android:paddingTop="10dip"
+                            android:text="Left Team" />
+
+                        <TextView
+                            style="@style/greenTextViewStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/rounded_table"
+                            android:gravity="center"
+                            android:paddingBottom="10dip"
+                            android:paddingLeft="04dip"
+                            android:paddingRight="04dip"
+                            android:paddingTop="10dip"
+                            android:text="Right Team" />
+
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            style="@style/greenTextViewStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/rounded_table"
+                            android:gravity="center"
+                            android:paddingBottom="08dip"
+                            android:paddingLeft="04dip"
+                            android:paddingRight="04dip"
+                            android:paddingTop="10dip"
+                            android:text="Previous Balance" />
+
+                        <TextView
+                            android:id="@+id/previousbalnce_leftteam"
+                            style="@style/greenTextViewStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/rounded_table"
+                            android:gravity="center"
+                            android:paddingBottom="08dip"
+                            android:paddingLeft="04dip"
+                            android:paddingRight="04dip"
+                            android:paddingTop="10dip" />
+
+                        <TextView
+                            android:id="@+id/previousbalnce_rightteam"
+                            style="@style/greenTextViewStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/rounded_table"
+                            android:gravity="center"
+                            android:paddingBottom="08dip"
+                            android:paddingLeft="04dip"
+                            android:paddingRight="04dip"
+                            android:paddingTop="10dip" />
+
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            style="@style/greenTextViewStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/rounded_table"
+                            android:gravity="center"
+                            android:paddingBottom="08dip"
+                            android:paddingLeft="04dip"
+                            android:paddingRight="04dip"
+                            android:paddingTop="10dip"
+                            android:text="Today PV Business" />
+
+                        <TextView
+                            android:id="@+id/todaypvbusiness_leftteam"
+                            style="@style/greenTextViewStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/rounded_table"
+                            android:gravity="center"
+                            android:paddingBottom="08dip"
+                            android:paddingLeft="04dip"
+                            android:paddingRight="04dip"
+                            android:paddingTop="10dip" />
+
+                        <TextView
+                            android:id="@+id/todaypvbusiness_rightteam"
+                            style="@style/greenTextViewStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/rounded_table"
+                            android:gravity="center"
+                            android:paddingBottom="08dip"
+                            android:paddingLeft="04dip"
+                            android:paddingRight="04dip"
+                            android:paddingTop="10dip" />
+
+                    </TableRow>
+
+
+                    <TableRow>
+
+                        <TextView
+                            style="@style/greenTextViewStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/rounded_table"
+                            android:gravity="center"
+                            android:paddingBottom="08dip"
+                            android:paddingLeft="04dip"
+                            android:paddingRight="04dip"
+                            android:paddingTop="10dip"
+                            android:text="Total PV" />
+
+                        <TextView
+                            android:id="@+id/totalpv_leftteam"
+                            style="@style/greenTextViewStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/rounded_table"
+                            android:gravity="center"
+                            android:paddingBottom="08dip"
+                            android:paddingLeft="04dip"
+                            android:paddingRight="04dip"
+                            android:paddingTop="10dip" />
+
+                        <TextView
+                            android:id="@+id/totalpv_rightteam"
+                            style="@style/greenTextViewStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/rounded_table"
+                            android:gravity="center"
+                            android:paddingBottom="08dip"
+                            android:paddingLeft="04dip"
+                            android:paddingRight="04dip"
+                            android:paddingTop="10dip" />
+
+                    </TableRow>
+
+
+                    <TableRow>
+
+                        <TextView
+                            style="@style/greenTextViewStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/rounded_table"
+                            android:gravity="center"
+                            android:paddingBottom="08dip"
+                            android:paddingLeft="04dip"
+                            android:paddingRight="04dip"
+                            android:paddingTop="10dip"
+                            android:text="Total Pairs" />
+
+                        <TextView
+                            android:id="@+id/totalpairs_leftteam"
+                            style="@style/greenTextViewStyle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/rounded_table"
+                            android:gravity="center"
+                            android:paddingBottom="08dip"
+                            android:paddingLeft="10dip"
+                            android:paddingRight="10dip"
+                            android:paddingTop="10dip" />
+
+                        <TextView
+
+                            style="@style/greenTextViewStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/rounded_table"
+                            android:gravity="center"
+                            android:paddingBottom="08dip"
+                            android:paddingLeft="04dip"
+                            android:paddingRight="04dip"
+                            android:paddingTop="10dip" />
+
+
+                    </TableRow>
+
+
+                    <TableRow>
+
+                        <TextView
+                            style="@style/greenTextViewStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/rounded_table"
+                            android:gravity="center"
+                            android:paddingBottom="08dip"
+                            android:paddingLeft="04dip"
+                            android:paddingRight="04dip"
+                            android:paddingTop="10dip"
+                            android:text="Present Balance" />
+
+                        <TextView
+                            android:id="@+id/presentbalance_leftteam"
+                            style="@style/greenTextViewStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/rounded_table"
+                            android:gravity="center"
+                            android:paddingBottom="08dip"
+                            android:paddingLeft="04dip"
+                            android:paddingRight="04dip"
+                            android:paddingTop="10dip" />
+
+                        <TextView
+
+                            style="@style/greenTextViewStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/rounded_table"
+                            android:gravity="center"
+                            android:paddingBottom="08dip"
+                            android:paddingLeft="04dip"
+                            android:paddingRight="04dip"
+                            android:paddingTop="10dip" />
+                    </TableRow>
+                </TableLayout>
+                </HorizontalScrollView>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Next" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
